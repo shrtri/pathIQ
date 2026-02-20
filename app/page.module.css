@@ -1,0 +1,83 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.search h1{
+  font-size: 40px;
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  width: 700px;
+  border: solid black 1px;
+  background-color: rgb(250, 246, 246);
+  border-radius: 50px;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+}
+.searchBox:hover {
+  background-color: rgba(150, 148, 148, 0.851);
+  border: solid white 1px;
+  transform: translateX(6px);
+}
+
+.input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 26px;
+  padding: 12px 20px;
+}
+
+.input::placeholder {
+  color: #1e1919;
+}
+.input:hover::placeholder{
+  color: white;
+}
+
+.error {
+  color: #ff4d4f;
+  margin-top: 6px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+
+/* BUTTON */
+.button {
+  all: unset;             
+  width: 42px;
+  height: 42px;
+  background-color: rgb(250, 245, 245);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.spinner {
+  width: 18px;
+  height: 18px;
+  border: 2px solid black;
+  border-top: 2px solid white;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+

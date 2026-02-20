@@ -1,0 +1,20 @@
+.navbar {
+    background-color: rgb(60, 55, 55);
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.link {
+    background-color: rgb(60, 55, 55);
+  color: white;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+}
+.link:hover {
+    background-color: grey;
+    color: white;
+    transform: translateY(6px);
+}

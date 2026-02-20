@@ -1,0 +1,32 @@
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 86px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.tabs button {
+  margin-top: 10px;
+  padding: 10px 22px;
+  border: none;
+  cursor: pointer;
+  background-color: #222;
+  color: white;
+  border-radius: 999px;
+  font-size: 30px;
+  transition: all ease 0.2s;
+}
+.tabs button:hover{
+  transform: translateY(-1px);
+}
+.tabs .active {
+  background: linear-gradient(135deg, #b6d3f6, #61ddf3);
+  color: #000;
+  font-weight: 600;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
