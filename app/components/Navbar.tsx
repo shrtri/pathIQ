@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/Image";
+import Image from "next/image";
 import styles from "./navbar2.module.css"
 export default function Navbar() {
   return (
